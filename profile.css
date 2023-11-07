@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #ffff, #a9a9a9, #333333);
+}
+
+.wrapper{
+    background: linear-gradient(180deg, #ffff, #a9a9a9);
+    padding: 20px;
+    margin: 5% 20%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 30% 70%;
+    font-family: helvetica, sans-serif;
+
+}
+@media screen and (max-width: 800px){
+    .wrapper{
+        position: absolute;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    .form{
+        text-align: center;
+        border-bottom: #989898 solid 5px;
+        padding-bottom: 5%;
+    }
+    .right{
+        text-align: center;
+    }
+    body{
+        margin: 0;
+    }
+}
+.button{
+    background-color:orange;
+    border-radius: 7px;
+    width: 80%;
+    height: 30px;
+    border-style: none;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.profile{
+    background-color: chocolate;
+}
+@media screen and (min-width: 800px) {
+
+    .form {
+        border-right: solid #989898;
+    }
+}
+.right{
+    margin-left: 5%;
+    align-items: center;
+}
+.right p{
+    text-decoration: underline #333333;
+}
+.right form{
+    padding: 5%;
+    margin: 5%;
+    line-height: 30px;
+}
+.right form input{
+    margin: 1%;
+    border-radius: 7px;
+    border-color:#989898;
+    border-style: none;
+    height: 40px;
+    background-color: #989898;
+}
+.solid_button{
+    background-color:orange;
+    border-radius: 7px;
+    width: 40%;
+    height: 30px;
+    border-style: none;
+    overflow: hidden;
+}
+.change_email{
+    overflow: hidden;
+}
+.change_psw{
+    overflow: hidden;
+}

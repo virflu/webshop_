@@ -1,0 +1,78 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(180deg, #ffff, #a9a9a9, #333333);
+}
+.wrapper{
+    background: linear-gradient(180deg, #ffff, #a9a9a9);
+    padding: 20px;
+    margin: 5% 20%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: helvetica, sans-serif;
+    height: 100%;
+}
+@media screen and (max-width: 800px) {
+    .wrapper{
+        position: absolute;
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+
+    }
+    body{
+        margin: 0;
+    }
+    .login{
+        border: none;
+    }
+    .form input{
+        width: 100%;
+        margin-top: 2%;
+        padding: 0;
+    }
+    .form{
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 800px){
+    .login{
+        border-right: solid #989898;
+    }
+    .form input{
+        margin: 5%;
+    }
+}
+.login{
+   text-align: center;
+
+}
+.regi{
+    text-align: center;
+}
+.form{
+    padding: 5%;
+    margin: 5%;
+    line-height: 40px;
+}
+.form input{
+    border-radius: 7px;
+    border-color:#989898;
+    border-style: none;
+    height: 40px;
+    background-color: #989898;
+}
+.button{
+    background-color:orange;
+    border-radius: 7px;
+    width: 50%;
+    height: 30px;
+    border-style: none;
+    overflow: hidden;
+}
